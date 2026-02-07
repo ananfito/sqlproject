@@ -17,7 +17,7 @@ SELECT LeaseID, LeaseStartDate, LeaseEndDate, AptNo, MonthlyRent
 FROM Lease
 WHERE LeaseEndDate <= (SELECT CURDATE() + INTERVAL 3 MONTH);
 ```
-![lease expirations](./outputs/least-expirations.png)
+![lease expirations](./outputs/lease-expirations.png)
 
 ### Net profit by month (revenue - payroll) for leadership KPI tracking
 ```
@@ -52,4 +52,3 @@ The project was built using MySQL and featured the following techniques:
 ## Links 
 - [SQL Code](./sql/)
 - [Schema](./schema/)
-- [Outputs](./outputs/)
