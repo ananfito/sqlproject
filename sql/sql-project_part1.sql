@@ -575,5 +575,3 @@ WHERE C.Certifications = 'HVAC';
 SELECT MS.MSFirstName, MS.MSLastName, C.Certifications
 FROM MaintenanceStaff MS
 LEFT JOIN MAINTENANCESTAFF_Certifications C ON MS.MStaffID = C.MStaffID;
-
-

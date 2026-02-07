@@ -1,13 +1,14 @@
 # SQL Data Modeling + BI Reporting Pipeline
 
 ## Introduction 
-This SQL project example comes from a group project as part of my masters program in Business Analytics. The goal of this project was to design a relational database for a property management scenario including leases, apartments, maintenance, staff, and clients. Then we were tasked with using this databse to create business-facing queries to answer operational questions and create BI-friendly summary tables. 
+This SQL project was a group project from my masters program in Business Analytics. The goal of this project was to design a relational database for a property management scenario including leases, apartments, maintenance, staff, and clients. Then we were tasked with using this databse to create business-facing queries to answer operational questions and create BI-friendly summary tables. 
 
 ## The Build
-- ERD -> relational schema -> DDL
-- Created core entities (e.g., APARTMENT, LEASE, MAINTENANCEREQUEST) with referential integrity.
-- Answered stakeholder questions (occupancy, upcoming lease experiations, pending requests, etc.)
-- Designed star schem 
+The build for this project involved:
+- Entity relational diagram (ERD) and relational schema to plan database structure
+- Data definiton language (DDL) to create core entities (e.g., APARTMENT, LEASE, MAINTENANCEREQUEST) with referential integrity
+- Data maniuplation language (DML) to insert and update entities 
+- Data query language (DQL) to answer stakeholder questions (occupancy, upcoming lease experiations, pending requests, etc.)
 
 ## Examples: Dashboard-ready outputs
 ### Lease expirations by building/month for proactive renewals and capacity planning
